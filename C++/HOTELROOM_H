@@ -1,0 +1,20 @@
+#ifndef HOTELROOM_H
+#define HOTELROOM_H
+#include <iostream>
+using namespace std;
+
+class HotelRoom {
+    private:
+        int number;
+        double rate;
+    public:
+        HotelRoom();
+        HotelRoom(int, double);
+        int getNumber();
+        void setNumber(int);
+        double getRate();
+        void setRate(double);
+        void toString();
+        
+};
+#endif
